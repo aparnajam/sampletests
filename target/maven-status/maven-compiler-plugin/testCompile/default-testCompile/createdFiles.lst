@@ -1,0 +1,4 @@
+functional_tests/stepDefinition/RunnerTest.class
+functional_tests/automationFramework/Framework.class
+functional_tests/stepDefinition/commonSteps.class
+functional_tests/stepDefinition/HomePage.class
