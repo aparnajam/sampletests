@@ -13,8 +13,8 @@ test:
     - bundle exec cucumber --format json --out 
     - $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
   post:
-    - if ( ${NIGHTLY_BUILD} == true){
-    mvn test -PSGWEBprod
-  }
+    - if [ -n "${NIGHTLY_BUILD}" ]; then
+             mvn test -PSGWEBprod
+     fi
 
 
