@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0">
-<testcase classname="dummy" name="dummy">
-<skipped message="No features found"/>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="64.645284">
+<testcase classname="Homepage" name="User accesses home page" time="23.035499">
+<system-out><![CDATA[Given User goes to homepage.................................................passed
+Then verify sweetgreen logo is displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke Tests" name="User accesses online ordering" time="41.609785">
+<system-out><![CDATA[Given User goes to homepage.................................................passed
+Then make sure the page is displayed properly...............................passed
+And click orderonline button................................................passed
+Then user should be redirected to ordering site.............................passed
+]]></system-out>
 </testcase>
 </testsuite>
