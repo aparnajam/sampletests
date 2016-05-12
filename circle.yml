@@ -8,7 +8,6 @@ machine:
 dependencies:
   pre:
     - npm install coffee-script # install from a different package manager
-    - gem uninstall bundler # use a custom version of bundler
     - gem install bundler --pre
 
   override:
