@@ -24,7 +24,7 @@ test:
     - $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
   post:
     - if [ -n "${NIGHTLY_BUILD}" ]; then
-            script: mvn test -PSGWEBprod
+           - mvn test -PSGWEBprod
      fi
 
 
