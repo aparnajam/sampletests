@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd47d95-fe7a-4932-8076-7ddd6567736f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/circle.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/cucumber/report.js" afterPath="$PROJECT_DIR$/TestResults/cucumber/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/cucumber/style.css" afterPath="$PROJECT_DIR$/TestResults/cucumber/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/junit/junit.xml" afterPath="$PROJECT_DIR$/TestResults/junit/junit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/RunnerTest.java" afterPath="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/RunnerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
     </list>
     <ignored path="SGWEB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestResults/cucumber/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="1275">
               <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circle.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/circle.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -101,16 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locationsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/pages/locationsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contactPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/pages/contactPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,6 +137,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aparna" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -171,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/RunnerTest.java" />
         <option value="$PROJECT_DIR$/TestResults/cucumber/style.css" />
+        <option value="$PROJECT_DIR$/circle.yml" />
       </list>
     </option>
   </component>
@@ -190,8 +192,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="661" />
-    <option name="y" value="-769" />
+    <option name="x" value="98" />
+    <option name="y" value="71" />
     <option name="width" value="1111" />
     <option name="height" value="731" />
   </component>
@@ -220,9 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,6 +242,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -835,7 +837,8 @@
       <workItem from="1462920909786" duration="661000" />
       <workItem from="1462925304406" duration="1065000" />
       <workItem from="1462927192101" duration="1297000" />
-      <workItem from="1463088654964" duration="585000" />
+      <workItem from="1463088654964" duration="1305000" />
+      <workItem from="1463094254522" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="removed tags">
       <created>1462921087812</created>
@@ -844,7 +847,21 @@
       <option name="project" value="LOCAL" />
       <updated>1462921087812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added yml file">
+      <created>1463089865133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463089865133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added yml file">
+      <created>1463090051513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1463090051513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,10 +897,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32570000" />
+    <option name="totallyTimeSpent" value="34583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="661" y="-769" width="1111" height="731" extended-state="0" />
+    <frame x="98" y="71" width="1111" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -953,7 +970,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed tags" />
+    <MESSAGE value="Added yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -964,13 +982,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/automationFramework/Framework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/homePage_steps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1228,7 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,8 +1308,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestResults/cucumber/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="1275">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding />
         </state>
       </provider>
