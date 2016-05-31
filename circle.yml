@@ -7,14 +7,19 @@ machine:
 ## Customize dependencies
 dependencies:
   pre:
-    - npm install coffee-script # install from a different package manager
-    - gem install bundler --pre
+    - "npm install coffee-script"
+    - "gem install bundler --pre"
 
 ## Customize test commands
 test:
   override:
-    - mvn test -PSGWEBprod
+   - "mvn test -PSGWEBprod"
   post:
-    - if [ -n "${NIGHTLY_BUILD}" ]; then
-           - mvn test -PSGWEBprod
-     fi
+    "if [ -n \"${NIGHTLY_BUILD}\" ]; then - mvn test -PSGWEBprod fi"
+
+## Artifacts
+general:
+  artifacts:
+    - "selenium/screenshots" # relative to the build directory
+    - "~/simplecov" # relative to the user's home directory
+    - "test.txt" # a single file, relative to the build directory
