@@ -74,8 +74,8 @@
       <file leaf-file-name="circle.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -207,7 +207,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="467" />
-    <option name="y" value="41" />
+    <option name="y" value="42" />
     <option name="width" value="1267" />
     <option name="height" value="730" />
   </component>
@@ -1056,7 +1056,7 @@
       <workItem from="1463088654964" duration="1305000" />
       <workItem from="1463094254522" duration="4274000" />
       <workItem from="1464727799342" duration="1898000" />
-      <workItem from="1464730947946" duration="4291000" />
+      <workItem from="1464730947946" duration="4678000" />
     </task>
     <task id="LOCAL-00001" summary="removed tags">
       <created>1462921087812</created>
@@ -1177,7 +1177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464737672396</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="build settings">
+      <created>1464738138379</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1464738138379</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1213,10 +1220,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43753000" />
+    <option name="totallyTimeSpent" value="44140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="41" width="1267" height="730" extended-state="0" />
+    <frame x="467" y="42" width="1267" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1651,8 +1658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
