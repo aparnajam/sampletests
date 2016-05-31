@@ -7,19 +7,24 @@ machine:
 ## Customize dependencies
 dependencies:
   pre:
-    - "npm install coffee-script"
-    - "gem install bundler --pre"
+    - npm install coffeescript # install from a different package manager
+    - gem uninstall bundler # use a custom version of bundler
+    - gem install bundler --pre
+
+  override:
+    - bundle install: # note ':' here
+        timeout: 180 # fail if command has no output for 3 minutes
 
 ## Customize test commands
 test:
   override:
-   - "mvn test -PSGWEBprod"
+    - mvn test -PSGWEBprod
+    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
+    - bundle exec cucumber --format json --out 
+    - $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
   post:
-    "if [ -n \"${NIGHTLY_BUILD}\" ]; then - mvn test -PSGWEBprod fi"
+    - if [ -n "${NIGHTLY_BUILD}" ]; then
+           - mvn test -PSGWEBprod
+     fi
 
-## Artifacts
-general:
-  artifacts:
-    - "selenium/screenshots" # relative to the build directory
-    - "~/simplecov" # relative to the user's home directory
-    - "test.txt" # a single file, relative to the build directory
+
