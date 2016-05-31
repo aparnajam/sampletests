@@ -14,12 +14,15 @@ dependencies:
 test:
   override:
     - mvn test -PSGWEBprod
-    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
-    - bundle exec cucumber --format json --out 
-    - $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
+
   post:
     - if [ -n "${NIGHTLY_BUILD}" ]; then
            - mvn test -PSGWEBprod
      fi
 
+general:
+  artifacts:
+    - "selenium/screenshots" # relative to the build directory
+    - "~/simplecov" # relative to the user's home directory
+    - "test.txt" # a single file, relative to the build directory
 
