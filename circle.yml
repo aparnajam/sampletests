@@ -17,8 +17,8 @@ dependencies:
 ## Customize test commands
 test:
   override:
-    - mvn test -PSGWEBprod
+    - mvn test -PSGWEBprod;
   post:
-    if [ -n "${NIGHTLY_BUILD}" ]; then
-           - mvn test -PSGWEBprod
-    fi
+    - if [ -n "${NIGHTLY_BUILD}" ];
+      then mvn test -PSGWEBprod;
+      fi
