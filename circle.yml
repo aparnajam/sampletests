@@ -18,11 +18,3 @@ test:
     - if [ -n "${NIGHTLY_BUILD}" ]; then
            - mvn test -PSGWEBprod
      fi
-
-## Artifacts
-general:
-  artifacts:
-    - "selenium/screenshots" # relative to the build directory
-    - "~/simplecov" # relative to the user's home directory
-    - "test.txt" # a single file, relative to the build directory
-
