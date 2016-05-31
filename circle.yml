@@ -11,16 +11,14 @@ dependencies:
     - gem install bundler --pre
 
   override:
-    - bundle install: # note ':' here
+    - bundle install:  # note ':' here
         timeout: 180 # fail if command has no output for 3 minutes
 
 ## Customize test commands
 test:
   override:
     - mvn test -PSGWEBprod
-  post:
+  post: 
     - if [ -n "${NIGHTLY_BUILD}" ]; then
            - mvn test -PSGWEBprod
     fi
-
-
