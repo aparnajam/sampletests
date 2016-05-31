@@ -8,7 +8,6 @@ machine:
 dependencies:
   pre:
     - npm install coffee-script # install from a different package manager
-    - gem uninstall bundler # use a custom version of bundler
     - gem install bundler --pre
 
   override:
@@ -19,12 +18,9 @@ dependencies:
 test:
   override:
     - mvn test -PSGWEBprod
-    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
-    - bundle exec cucumber --format json --out 
-    - $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
   post:
     - if [ -n "${NIGHTLY_BUILD}" ]; then
            - mvn test -PSGWEBprod
-     fi
+    fi
 
 
