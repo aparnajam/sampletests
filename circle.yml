@@ -16,5 +16,5 @@ test:
     - mvn test -PSGWEBprod;
   post:
     - if [ -n "${NIGHTLY_BUILD}" ];
-      then mvn test -PSGWEBprod;
+      then - mvn test -PSGWEBprod;
       fi
