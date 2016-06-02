@@ -55,7 +55,7 @@ public class smokeTest extends Framework {
 
     @And("^Add it to the bag$")
     public void addItToTheBag() throws Throwable {
-        driver.findElement(By.cssSelector("#confirm-or-add > button")).click();
+        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#confirm-or-add > button"))).click();
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(., \""+ "Confirm" + "\")]"))).click();
 
     }

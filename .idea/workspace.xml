@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd47d95-fe7a-4932-8076-7ddd6567736f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/functional_tests/stepDefinition/smokeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/functional_tests/stepDefinition/smokeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java" afterPath="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/SmokeTest.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/SmokeTest.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/SmokeTest.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/SmokeTest.feature" />
     </list>
     <ignored path="SGWEB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/HomePage.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -63,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smokeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smokeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,9 +119,9 @@
         <option value="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/RunnerTest.java" />
         <option value="$PROJECT_DIR$/TestResults/cucumber/style.css" />
         <option value="$PROJECT_DIR$/circle.yml" />
-        <option value="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SmokeTest.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java" />
       </list>
     </option>
   </component>
@@ -990,7 +991,7 @@
       <workItem from="1463088654964" duration="1305000" />
       <workItem from="1463094254522" duration="4274000" />
       <workItem from="1464727799342" duration="1898000" />
-      <workItem from="1464730947946" duration="12384000" />
+      <workItem from="1464730947946" duration="13080000" />
     </task>
     <task id="LOCAL-00001" summary="removed tags">
       <created>1462921087812</created>
@@ -1146,7 +1147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464739206756</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added Checkout workflow test">
+      <created>1464895267347</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1464895267347</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1182,7 +1190,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51846000" />
+    <option name="totallyTimeSpent" value="52542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-129" y="-1055" width="1457" height="907" extended-state="0" />
@@ -1259,7 +1267,8 @@
     <MESSAGE value="Modified yml file" />
     <MESSAGE value="removed eyes step from smoke test" />
     <MESSAGE value="build settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="build settings" />
+    <MESSAGE value="Added Checkout workflow test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Checkout workflow test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1600,16 +1609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/SmokeTest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1623,6 +1622,16 @@
         <state relative-caret-position="405">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/functional_tests/stepDefinition/smokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
