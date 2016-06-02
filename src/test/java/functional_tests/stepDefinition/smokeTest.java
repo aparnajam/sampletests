@@ -8,7 +8,9 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import functional_tests.automationFramework.Framework;
 import functional_tests.pages.*;
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.testng.Assert.*;
 
 /**
@@ -40,4 +42,31 @@ public class smokeTest extends Framework {
         assertTrue(os.zipCode().isDisplayed());
     }
 
+    @And("^select a location$")
+    public void selectALocation() throws Throwable {
+        os.zipCode().sendKeys("11221");
+        driver.findElement(By.cssSelector("#restaurants > div:nth-child(18) a")).click();
+    }
+
+    @Then("^pick a salad$")
+    public void pickASalad() throws Throwable {
+        driver.findElement(By.cssSelector("#menu > div:nth-child(3) > div.flex-row > div:nth-child(3)")).click();
+    }
+
+    @And("^Add it to the bag$")
+    public void addItToTheBag() throws Throwable {
+        driver.findElement(By.cssSelector("#confirm-or-add > button")).click();
+        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(., \""+ "Confirm" + "\")]"))).click();
+
+    }
+
+    @Then("^proceed to the checkout page$")
+    public void proceedToTheCheckoutPage() throws Throwable {
+        driver.findElement(By.cssSelector("div.checkout-btns > a > button")).click();
+        driver.findElement(By.cssSelector("form input")).sendKeys("aparnajammula@gmail.com");
+        driver.findElement(By.cssSelector("button.full-width.test-check-email-button")).click();
+        driver.findElement(By.cssSelector("form div:nth-child(2) input")).sendKeys("iamgreen123");
+        driver.findElement(By.cssSelector("#customers-signin > div > form > button")).click();
+        assertTrue(driver.findElement(By.cssSelector("#checkout")).isDisplayed());
+    }
 }
