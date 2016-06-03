@@ -61,11 +61,13 @@ public class smokeTest extends Framework {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         System.out.println("The example is" +driver.getTitle());
         assertTrue(driver.findElement(By.cssSelector("#ingredients-bar")).isDisplayed());
-        SaveScreenShot("Check this one");
+        SaveScreenShot("Check this one 1");
         driver.findElement(By.cssSelector("#confirm-or-add > button")).click();
+        SaveScreenShot("Check this one 2");
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#confirm-or-add > button"))).click();
+        SaveScreenShot("Check this one 3");
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(., \""+ "Confirm" + "\")]"))).click();
-
+        SaveScreenShot("Check this one 4");
     }
 
     @Then("^proceed to the checkout page$")
