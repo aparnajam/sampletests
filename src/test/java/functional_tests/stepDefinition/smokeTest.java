@@ -12,6 +12,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.*;
 
@@ -57,8 +58,10 @@ public class smokeTest extends Framework {
 
     @And("^Add it to the bag$")
     public void addItToTheBag() throws Throwable {
-        System.out.print(driver.getTitle());
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        System.out.println("The example is" +driver.getTitle());
         assertTrue(driver.findElement(By.cssSelector("#ingredients-bar")).isDisplayed());
+        SaveScreenShot("Add to bag");
         driver.findElement(By.cssSelector("#confirm-or-add > button")).click();
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#confirm-or-add > button"))).click();
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(., \""+ "Confirm" + "\")]"))).click();

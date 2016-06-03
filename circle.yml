@@ -18,3 +18,7 @@ test:
     - if [ -n "${NIGHTLY_BUILD}" ];
       then - mvn test -PSGWEBprod;
       fi
+
+general:
+  artifacts:
+    - "./TestResults/" # relative to the build directory

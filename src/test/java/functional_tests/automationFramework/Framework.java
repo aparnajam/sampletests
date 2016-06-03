@@ -116,8 +116,7 @@ public class Framework {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         System.out.println("SCREENSHOT :" +scrFile );
         // Now you can do whatever you need to do with it, for example copy somewhere
-       // CommonFunctions cm = new CommonFunctions();
-       // FileUtils.copyFile(scrFile, new File("./TestResults/" + strNameSeed + " " + cm.getCurrentTime("YYYYMMdd_HH-mm-ss")+".png"));
+        FileUtils.copyFile(scrFile, new File("./TestResults/" + strNameSeed + ".png"));
     }
 
     public Set<String> findBrokenImages() {
