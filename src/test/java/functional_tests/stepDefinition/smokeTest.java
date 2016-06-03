@@ -11,6 +11,8 @@ import functional_tests.pages.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import static org.testng.Assert.*;
 
 /**
@@ -55,6 +57,9 @@ public class smokeTest extends Framework {
 
     @And("^Add it to the bag$")
     public void addItToTheBag() throws Throwable {
+        System.out.print(driver.getTitle());
+        assertTrue(driver.findElement(By.cssSelector("#ingredients-bar")).isDisplayed());
+        driver.findElement(By.cssSelector("#confirm-or-add > button")).click();
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#confirm-or-add > button"))).click();
         new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(., \""+ "Confirm" + "\")]"))).click();
 
