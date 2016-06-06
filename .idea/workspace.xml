@@ -72,8 +72,8 @@
       <file leaf-file-name="circle.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -970,7 +970,7 @@
       <workItem from="1464727799342" duration="1898000" />
       <workItem from="1464730947946" duration="18296000" />
       <workItem from="1464972081892" duration="6284000" />
-      <workItem from="1465233049093" duration="1135000" />
+      <workItem from="1465233049093" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="removed tags">
       <created>1462921087812</created>
@@ -1217,7 +1217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1465235538406</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="REmoving night tests-2">
+      <created>1465235856691</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1465235856691</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1253,7 +1260,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65177000" />
+    <option name="totallyTimeSpent" value="65546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-221" y="-1031" width="990" height="955" extended-state="0" />
@@ -1335,7 +1342,8 @@
     <MESSAGE value="Adding extra screenshots to debug the failure" />
     <MESSAGE value="Removing failing scenario" />
     <MESSAGE value="REmoving night tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="REmoving night tests" />
+    <MESSAGE value="REmoving night tests-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="REmoving night tests-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1646,8 +1654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

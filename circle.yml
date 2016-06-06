@@ -10,10 +10,6 @@ dependencies:
     - npm install coffee-script # install from a different package manager
     - gem install bundler --pre
 
-## Customize test commands
-test:
-  override:
-    - mvn test -PSGWEBprod;
 
 general:
   artifacts:
