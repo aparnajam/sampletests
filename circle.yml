@@ -16,7 +16,6 @@ test:
     - mvn test -PSGWEBprod;
   post:
     - if [ -n "${NIGHTLY_BUILD}" ];
-
       fi
 
 general:
