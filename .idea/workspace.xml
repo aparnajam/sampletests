@@ -72,8 +72,8 @@
       <file leaf-file-name="circle.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -144,10 +144,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
-    <option name="y" value="23" />
+    <option name="x" value="-221" />
+    <option name="y" value="-1031" />
     <option name="width" value="990" />
-    <option name="height" value="728" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -970,7 +970,7 @@
       <workItem from="1464727799342" duration="1898000" />
       <workItem from="1464730947946" duration="18296000" />
       <workItem from="1464972081892" duration="6284000" />
-      <workItem from="1465233049093" duration="957000" />
+      <workItem from="1465233049093" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="removed tags">
       <created>1462921087812</created>
@@ -1210,7 +1210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1465235167591</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="REmoving night tests">
+      <created>1465235538406</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1465235538406</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1246,10 +1253,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64999000" />
+    <option name="totallyTimeSpent" value="65177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="23" width="990" height="728" extended-state="0" />
+    <frame x="-221" y="-1031" width="990" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1327,7 +1334,8 @@
     <MESSAGE value="Adding screenshot feature to CI builds" />
     <MESSAGE value="Adding extra screenshots to debug the failure" />
     <MESSAGE value="Removing failing scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing failing scenario" />
+    <MESSAGE value="REmoving night tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="REmoving night tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1638,8 +1646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
